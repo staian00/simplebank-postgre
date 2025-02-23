@@ -44,3 +44,7 @@ func RandomCurrency() string {
 
 	return currencies[rand.Intn(n)]
 }
+
+func RandomAccountID() int64 {
+	return RandomInt(0, 1000)
+}
